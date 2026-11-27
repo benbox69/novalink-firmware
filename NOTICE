@@ -1,0 +1,10 @@
+novalink-firmware
+Copyright (c) 2026 Benjamin Tollet
+
+This project derives from the ESPHome `micronova` component (https://github.com/esphome/esphome),
+by @jorre05, @edenhaus and the ESPHome contributors.
+
+Same licence as ESPHome, see LICENSE: C++ files (.c, .cpp, .h) under the GPLv3, Python files and all other files
+under the MIT licence.
+
+Not affiliated with or endorsed by Micronova or ESPHome.

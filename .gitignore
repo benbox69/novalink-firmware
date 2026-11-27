@@ -1,0 +1,7 @@
+build/
+.esphome/
+__pycache__/
+.DS_Store
+secrets.yaml
+# written by ESPHome at each compile
+/tests/*/.gitignore
