@@ -65,7 +65,7 @@ void NovaLinkAlarmText::on_value(uint8_t address, uint8_t value) {
   if (value == this->last_code_)
     return;
   this->last_code_ = value;
-  // Only the codes seen with the text of the stove display, see docs/addresses.md
+  // Only the codes seen with the text of the stove display, see https://github.com/benbox69/novalink-firmware/wiki/Stove-addresses
   char text[16];
   const char *name;
   switch (value) {

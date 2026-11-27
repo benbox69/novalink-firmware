@@ -1,4 +1,4 @@
-"""Addresses of the stove values, per board. See docs/addresses.md for what proves them."""
+"""Addresses of the stove values, per board. See https://github.com/benbox69/novalink-firmware/wiki/Stove-addresses for what proves them."""
 
 RAM = 0x00
 EEPROM = 0x20

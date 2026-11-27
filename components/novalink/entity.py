@@ -114,7 +114,8 @@ def final_validate_writes(addresses, custom=None):
             if not hub[CONF_ALLOW_CUSTOM_WRITES]:
                 raise cv.Invalid(
                     f"Free writes need '{CONF_ALLOW_CUSTOM_WRITES}: true' under '{DOMAIN}:'. Read "
-                    "docs/custom-writes.md first: a wrong write can stop the stove or change it for good",
+                    "https://github.com/benbox69/novalink-firmware/wiki/Free-writes first: a wrong write can stop the stove "
+                    "or change it for good",
                     path=[custom],
                 )
             items += [(custom, _resolve(board, None, c)) for c in config[custom]]

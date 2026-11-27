@@ -12,7 +12,7 @@ namespace esphome::novalink {
 class NovaLinkStateText final : public text_sensor::TextSensor, public StoveEntity {
  public:
   /// On the X100 EVO, states 8 and 9 are general alarms, whatever the cause: both are named "Alarm" (the alarm text
-  /// gives the cause). See docs/addresses.md.
+  /// gives the cause). See https://github.com/benbox69/novalink-firmware/wiki/Stove-addresses.
   void set_x100_evo(bool x100_evo) { this->x100_evo_ = x100_evo; }
   void on_unknown() override;
 

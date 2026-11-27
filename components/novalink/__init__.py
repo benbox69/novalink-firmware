@@ -205,7 +205,7 @@ async def to_code(config):
     if config[CONF_ALLOW_CUSTOM_WRITES]:
         _LOGGER.warning(
             "Free writes to the stove are allowed. A wrong one can raise an alarm, change the combustion or a factory "
-            "setting for good, and wear the EEPROM. See docs/custom-writes.md"
+            "setting for good, and wear the EEPROM. See https://github.com/benbox69/novalink-firmware/wiki/Free-writes"
         )
 
     # Protection
